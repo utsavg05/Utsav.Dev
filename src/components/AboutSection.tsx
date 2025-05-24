@@ -53,7 +53,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="w-full bg-[#221D11] text-[#F4C753] px-4 sm:px-6 md:px-12 py-20 border-t border-[#F4C753]/10"
+      className="w-full bg-[#221D11] text-[#F4C753] px-4 sm:px-6 md:px-12 py-20"
     >
       <div className="max-w-5xl mx-auto w-full flex flex-col items-center text-center md:text-left">
         {/* Heading */}

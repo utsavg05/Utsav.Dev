@@ -134,7 +134,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Panel */}
       {menuOpen && (
-        <div className="absolute top-[100%] left-0 w-full bg-[#221D11] border-t border-[#F4C753] shadow-lg flex flex-col items-center gap-6 py-6 md:hidden z-40">
+        <div className="absolute  top-[100%] left-0 w-full bg-[#221D11]/80 backdrop-blur-md border-t border-[#F4C753] shadow-lg flex flex-col items-center gap-6 py-6 md:hidden z-40">
           <a href="#about" className="text-white hover:text-[#F4C753]" onClick={() => setMenuOpen(false)}>About Me</a>
           <a href="#skills" className="text-white hover:text-[#F4C753]" onClick={() => setMenuOpen(false)}>Skills</a>
           <a href="#contact" className="text-white hover:text-[#F4C753]" onClick={() => setMenuOpen(false)}>Contact</a>

@@ -73,7 +73,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="relative w-full bg-[#221D11] text-white min-h-screen flex items-center justify-center px-4 sm:px-8">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-3 gap-10 items-center py-9 mb-5">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-3 gap-10 items-center py-9 mb-7">
         {/* Left - Designer */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -124,7 +124,7 @@ const Hero = () => {
       </div>
 
       {/* Resume CTA */}
-      <div className="absolute bottom-0.5 w-full flex justify-center">
+      <div className="absolute bottom-0.5 md:bottom-12 w-full flex justify-center items-center">
         <a
           href="/Resume__Copy_ (6).pdf"
           download
