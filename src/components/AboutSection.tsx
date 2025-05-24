@@ -49,10 +49,6 @@
 
 // export default AboutSection;
 
-
-
-import React from "react";
-
 const AboutSection = () => {
   return (
     <section
