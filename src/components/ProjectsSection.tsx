@@ -1,88 +1,15 @@
-// import { ExternalLink } from "lucide-react"; // Make sure you have lucide-react installed
-
-// const projects = [
-//     {
-//       title: "Smriti AI",
-//       description: "Smriti AI is an intelligent, all-in-one learning assistant that helps you organize, understand, and retain everything you study 🧠",
-//       image: "/smritiAi.jpg", // Replace with actual image path
-//       link: "https://www.smriti.live/",
-//     },
-//   {
-//     title: "CineVibe",
-//     description: "A responsive movie and event platform built with React and Tailwind CSS.",
-//     image: "/CineVibe.jpg", // Replace with actual image path
-//     link: "https://cine-vibe-app.vercel.app/",
-//   },
-//   {
-//     title: "BeBlogger",
-//     description: "Blogging platform that allows users to create, share, and explore blogs on various topics.",
-//     image: "/BeBlogger.jpg", // Replace with actual image path
-//     link: "https://beblogger-ruby.vercel.app/",
-//   },
-//   {
-//     title: "WorkSphere",
-//     description: "A modern Employee Management System built to help businesses streamline employee tracking, manage records, and visualize workforce insights with an interactive dashboard.",
-//     image: "/ems.jpg", // Replace with actual image path
-//     link: "https://employee-management-system-seven-henna.vercel.app/",
-//   },
-//   {
-//     title: "Retro Themed UI",
-//     description: "Retro-themed website designed to showcase classic design elements and aesthetics. The website is built using modern web technologies while maintaining a vintage look and feel.",
-//     image: "/retro.jpg", // Replace with actual image path
-//     link: "https://retro-design-plum.vercel.app/",
-//   },
-// ];
-
-// export default function ProjectsSection() {
-//   return (
-//     <section id="projects" className="bg-[#221D11] py-20 px-4 md:px-10">
-//       <div className="max-w-7xl mx-auto">
-//         <h2 className="text-4xl text-center font-bold text-[#F4C753] mb-2">Featured Projects</h2>
-//         <p className="text-[#d3c3a4] text-center text-base mb-12">
-//           A selection of projects showcasing my full stack development skills.
-//         </p>
-
-//         <div className="grid md:grid-cols-3 gap-8">
-//           {projects.map((project, index) => (
-//             <div
-//               key={index}
-//               className='bg-[#2d2618] rounded-xl overflow-hidden shadow-md shadow-[#F4C753] transition duration-200 scale-95 hover:scale-100 border-2 border-[#F4C753]'
-//             >
-//               <img
-//                 src={project.image}
-//                 alt={project.title}
-//                 className="w-full h-50 object-cover object-top"
-//               />
-//               <div className="p-6">
-//                 <h3 className="text-xl font-semibold text-white flex items-center justify-between">
-//                   {project.title}
-//                   <a
-//                     href={project.link}
-//                     target="_blank"
-//                     rel="noopener noreferrer"
-//                     className="text-[#F4C753] hover:text-white transition"
-//                   >
-//                     <ExternalLink size={18} />
-//                   </a>
-//                 </h3>
-//                 <p className="text-[#f5e7c4] text-sm mt-2">
-//                   {project.description}
-//                 </p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
 import { ExternalLink } from "lucide-react";
 import { motion } from "motion/react";
 
 const projects = [
+  {
+    title: "Zync",
+    description:
+      "Zync is a full-stack real-time chat application that lets users chat privately or in groups, with instant message delivery, persistent storage, and a beautiful multi-theme UI",
+    image: "/zync_ss.jpg",
+    link: "https://zync-1hnm.onrender.com/",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io", "Tailwind CSS", "DaisyUI", "Zustand"],
+  },
   {
     title: "Smriti AI",
     description:
@@ -90,6 +17,14 @@ const projects = [
     image: "/smritiAi.jpg",
     link: "https://www.smriti.live/",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Gemini API", "Express", "MongoDB"],
+  },
+  {
+    title: "JobSeek",
+    description:
+    "JobSeek is a full-featured MERN stack job portal that connects job seekers with recruiters in a streamlined and intuitive interface. Designed with role-based access control, it supports both student applicants and company recruiters.",
+    image: "/jobseek_ss.jpg",
+    link: "https://jobseek-ete7.onrender.com/",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Redux", "ShadcnUI"],
   },
   {
     title: "CineVibe",
