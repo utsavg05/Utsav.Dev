@@ -126,7 +126,7 @@ const Hero = () => {
       {/* Resume CTA */}
       <div className="absolute bottom-0.5 md:bottom-12 w-full flex justify-center items-center">
         <a
-          href="/Resume__Copy_ (6).pdf"
+          href="/"
           download
           className="bg-[#F4C753] text-black font-semibold px-6 py-3 rounded-md shadow-lg hover:scale-105 transition-transform duration-200"
         >
