@@ -10,7 +10,7 @@ function App() {
   return (
     <main className="bg-[#221D11] min-h-screen">
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <AboutSection />
       <ProjectsSection />
       <TechStack />
